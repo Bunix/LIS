@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.7.4
+-- version 4.8.3
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 16, 2018 at 07:14 PM
--- Server version: 10.1.28-MariaDB
--- PHP Version: 7.1.11
+-- Generation Time: Nov 19, 2018 at 01:54 PM
+-- Server version: 10.1.36-MariaDB
+-- PHP Version: 7.2.10
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -41,9 +41,9 @@ CREATE TABLE `branch` (
 --
 
 INSERT INTO `branch` (`branch_id`, `branch_name`, `branch_address`, `branch_contact`, `skin`) VALUES
-(5, '1ID', 'PAGADIAN', '0912', 'red'),
-(6, '2ID', 'TANAY', '0912', 'green'),
-(7, '3ID', 'BICOL ALBAY', '0912', 'blue');
+(1, '1ID', 'PAGADIAN', '0912', 'red'),
+(2, '2ID', 'TANAY', '0912', 'green'),
+(3, '3ID', 'BICOL ALBAY', '0912', 'blue');
 
 -- --------------------------------------------------------
 
@@ -150,7 +150,67 @@ INSERT INTO `history_log` (`log_id`, `user_id`, `action`, `date`) VALUES
 (13, 4, 'has logged out the system at ', '2018-11-16 08:39:40'),
 (14, 9, 'has logged in the system at ', '2018-11-16 08:40:15'),
 (15, 9, 'added 200 of m16A1', '2018-11-16 09:09:13'),
-(16, 9, 'has logged out the system at ', '2018-11-16 19:11:15');
+(16, 9, 'has logged out the system at ', '2018-11-16 19:11:15'),
+(17, 7, 'has logged in the system at ', '2018-11-17 15:10:04'),
+(18, 7, 'has logged out the system at ', '2018-11-17 15:49:19'),
+(19, 7, 'has logged in the system at ', '2018-11-17 16:41:09'),
+(20, 7, 'has logged out the system at ', '2018-11-17 16:41:43'),
+(21, 8, 'has logged in the system at ', '2018-11-17 16:41:58'),
+(22, 8, 'has logged in the system at ', '2018-11-17 16:42:48'),
+(23, 7, 'has logged in the system at ', '2018-11-17 16:43:48'),
+(24, 7, 'has logged in the system at ', '2018-11-17 16:43:59'),
+(25, 7, 'has logged in the system at ', '2018-11-17 16:44:11'),
+(26, 7, 'has logged in the system at ', '2018-11-17 16:44:20'),
+(27, 7, 'has logged in the system at ', '2018-11-17 16:44:22'),
+(28, 7, 'has logged in the system at ', '2018-11-17 16:44:24'),
+(29, 7, 'has logged in the system at ', '2018-11-17 16:44:25'),
+(30, 7, 'has logged in the system at ', '2018-11-17 16:44:27'),
+(31, 7, 'has logged in the system at ', '2018-11-17 16:45:50'),
+(32, 7, 'has logged in the system at ', '2018-11-17 16:45:52'),
+(33, 7, 'has logged in the system at ', '2018-11-17 16:45:53'),
+(34, 7, 'has logged in the system at ', '2018-11-17 16:45:54'),
+(35, 7, 'has logged in the system at ', '2018-11-17 16:46:27'),
+(36, 7, 'has logged in the system at ', '2018-11-17 16:46:28'),
+(37, 7, 'has logged in the system at ', '2018-11-17 16:46:30'),
+(38, 7, 'has logged in the system at ', '2018-11-17 16:46:32'),
+(39, 7, 'has logged in the system at ', '2018-11-17 16:46:33'),
+(40, 7, 'has logged in the system at ', '2018-11-17 16:47:38'),
+(41, 7, 'has logged in the system at ', '2018-11-17 16:48:16'),
+(42, 7, 'has logged in the system at ', '2018-11-17 16:48:17'),
+(43, 7, 'has logged in the system at ', '2018-11-17 16:48:19'),
+(44, 7, 'has logged in the system at ', '2018-11-17 16:48:20'),
+(45, 7, 'has logged in the system at ', '2018-11-17 16:49:33'),
+(46, 7, 'has logged in the system at ', '2018-11-17 16:49:35'),
+(47, 7, 'has logged in the system at ', '2018-11-17 16:49:37'),
+(48, 7, 'has logged in the system at ', '2018-11-17 16:49:47'),
+(49, 7, 'has logged in the system at ', '2018-11-17 16:49:49'),
+(50, 7, 'has logged in the system at ', '2018-11-17 16:54:06'),
+(51, 7, 'has logged in the system at ', '2018-11-17 16:54:50'),
+(52, 7, 'has logged in the system at ', '2018-11-17 16:54:52'),
+(53, 7, 'has logged in the system at ', '2018-11-17 16:55:02'),
+(54, 7, 'has logged in the system at ', '2018-11-17 16:58:36'),
+(55, 7, 'has logged in the system at ', '2018-11-17 16:58:37'),
+(56, 7, 'has logged in the system at ', '2018-11-17 16:58:39'),
+(57, 7, 'has logged in the system at ', '2018-11-17 17:00:07'),
+(58, 7, 'has logged in the system at ', '2018-11-17 17:04:21'),
+(59, 7, 'has logged in the system at ', '2018-11-17 17:33:56'),
+(60, 7, 'has logged in the system at ', '2018-11-17 17:34:02'),
+(61, 7, 'has logged in the system at ', '2018-11-17 17:34:14'),
+(62, 7, 'has logged out the system at ', '2018-11-17 17:35:04'),
+(63, 7, 'has logged in the system at ', '2018-11-17 17:35:13'),
+(64, 7, 'has logged in the system at ', '2018-11-17 17:35:18'),
+(65, 7, 'has logged in the system at ', '2018-11-17 17:35:24'),
+(66, 7, 'has logged in the system at ', '2018-11-17 17:48:45'),
+(67, 7, 'has logged out the system at ', '2018-11-17 17:55:01'),
+(68, 8, 'has logged in the system at ', '2018-11-17 17:55:09'),
+(69, 8, 'has logged out the system at ', '2018-11-17 17:56:03'),
+(70, 8, 'has logged in the system at ', '2018-11-17 17:56:13'),
+(71, 8, 'has logged out the system at ', '2018-11-17 17:57:24'),
+(72, 8, 'has logged in the system at ', '2018-11-17 17:57:34'),
+(73, 8, 'has logged out the system at ', '2018-11-17 17:57:53'),
+(74, 8, 'has logged in the system at ', '2018-11-17 17:59:37'),
+(75, 8, 'has logged out the system at ', '2018-11-17 17:59:41'),
+(76, 7, 'has logged in the system at ', '2018-11-17 17:59:51');
 
 -- --------------------------------------------------------
 
@@ -229,6 +289,27 @@ CREATE TABLE `purchase_request` (
   `branch_id` int(11) NOT NULL,
   `purchase_status` varchar(10) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `roles`
+--
+
+CREATE TABLE `roles` (
+  `role_id` int(11) NOT NULL,
+  `role_name` varchar(20) NOT NULL,
+  `skin` varchar(20) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `roles`
+--
+
+INSERT INTO `roles` (`role_id`, `role_name`, `skin`) VALUES
+(1, 'PAMU', 'red'),
+(2, 'FSSU', 'green'),
+(3, 'ADMIN', 'blue');
 
 -- --------------------------------------------------------
 
@@ -391,18 +472,19 @@ CREATE TABLE `user` (
   `password` varchar(50) NOT NULL,
   `name` varchar(50) NOT NULL,
   `status` varchar(10) NOT NULL,
-  `branch_id` int(11) NOT NULL
+  `branch_id` int(11) NOT NULL,
+  `role_id` int(10) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `user`
 --
 
-INSERT INTO `user` (`user_id`, `username`, `password`, `name`, `status`, `branch_id`) VALUES
-(6, 'administrator', 'a1Bz20ydqelm8m1wql5f4dcc3b5aa765d61d8327deb882cf99', 'Julito Bunio', 'active', 0),
-(7, '1id', 'a1Bz20ydqelm8m1wql5f4dcc3b5aa765d61d8327deb882cf99', '1Infantry Division', 'active', 5),
-(8, '2id', 'a1Bz20ydqelm8m1wql5f4dcc3b5aa765d61d8327deb882cf99', '2nd Infantry Division', 'active', 5),
-(9, '3id', 'a1Bz20ydqelm8m1wql5f4dcc3b5aa765d61d8327deb882cf99', '3rd Infantry Division', 'active', 5);
+INSERT INTO `user` (`user_id`, `username`, `password`, `name`, `status`, `branch_id`, `role_id`) VALUES
+(6, 'administrator', 'a1Bz20ydqelm8m1wql5f4dcc3b5aa765d61d8327deb882cf99', 'Julito Bunio', 'active', 0, 0),
+(7, '1id', 'a1Bz20ydqelm8m1wql5f4dcc3b5aa765d61d8327deb882cf99', '1Infantry Division', 'active', 1, 1),
+(8, 'fssu', 'a1Bz20ydqelm8m1wql5f4dcc3b5aa765d61d8327deb882cf99', 'FSSU', 'active', 1, 2),
+(9, '3id', 'a1Bz20ydqelm8m1wql5f4dcc3b5aa765d61d8327deb882cf99', '3rd Infantry Division', 'active', 3, 3);
 
 --
 -- Indexes for dumped tables
@@ -449,6 +531,12 @@ ALTER TABLE `product`
 --
 ALTER TABLE `purchase_request`
   ADD PRIMARY KEY (`pr_id`);
+
+--
+-- Indexes for table `roles`
+--
+ALTER TABLE `roles`
+  ADD PRIMARY KEY (`role_id`);
 
 --
 -- Indexes for table `sales`
@@ -500,7 +588,7 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT for table `branch`
 --
 ALTER TABLE `branch`
-  MODIFY `branch_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `branch_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `category`
@@ -518,7 +606,7 @@ ALTER TABLE `customer`
 -- AUTO_INCREMENT for table `history_log`
 --
 ALTER TABLE `history_log`
-  MODIFY `log_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
+  MODIFY `log_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=77;
 
 --
 -- AUTO_INCREMENT for table `payment`
@@ -537,6 +625,12 @@ ALTER TABLE `product`
 --
 ALTER TABLE `purchase_request`
   MODIFY `pr_id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `roles`
+--
+ALTER TABLE `roles`
+  MODIFY `role_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT for table `sales`
